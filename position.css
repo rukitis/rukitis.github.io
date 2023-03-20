@@ -1,0 +1,53 @@
+header {
+    background-color: lightslategray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 4;
+}
+
+
+ul {
+    display: flex;
+   /* justify-content:space-around; */
+   gap: 25px;   
+}
+a:hover{
+    color:white;
+}
+li{
+    list-style:none;
+    transition: transform 0.3s;   
+}
+li:hover{
+    transform: translateY(-1.5px);
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+main {
+    margin-top: 80px;
+   
+}
+
+body {
+    background: #CDCDCD;
+}
+
+.cube {
+    width: 300px;
+    height: 300px;
+    background-color: lightslategray;
+    position: relative;
+}
+
+.inner-cube{
+    width: 100px;
+    height: 100px;
+    background-color: #CDCDCD;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+}
