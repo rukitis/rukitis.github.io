@@ -20,6 +20,7 @@ header {
   z-index: 0;
   height: 60px;
   top: 0;
+  left: 0;
 
   /* Te jāpapildina CSS */
 }
@@ -32,12 +33,14 @@ footer {
   height: 60px;
   bottom: 0;
   margin-bottom: auto;
+  left: 0;
   /* Te jāpapildina CSS */
 }
 
 main {
   max-width: 700px;
   margin: 60px auto;
+  margin-bottom: 60px;
 }
 
 article {
@@ -58,27 +61,29 @@ img {
 p {
   font-size: 2rem;
 }
+.one-destination{
+  position: relative;
+  display: grid;
+}
 
 .liepaja {
-  bottom: -40%;
   position: absolute;
-  left: 13%;
-  margin-top: 120px;
-margin-left: 140px;
+  margin-top: 330px;
+  margin-left: 150px;
+   
 }
 
 .australia {
-  margin-top: 120px;
-  margin-left: 140px;
-position: absolute;
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 20px;
+  
 }
 .indonesia {
-margin-top: 120px;
+  position: absolute;
+margin-top: 320px;
 margin-left: 140px;
-position: absolute;
+
 }
 
-.one-direction{
-  position: relative;
-}
 
