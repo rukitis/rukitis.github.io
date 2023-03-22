@@ -1,0 +1,4 @@
+/* Izvelas nakoso elementu pec h1 */
+h1 + p {
+    background-color: pink;
+}
