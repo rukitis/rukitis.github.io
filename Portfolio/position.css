@@ -13,6 +13,7 @@ h1 {
 p{
     display: flex;
     max-width: 500px;
+    font-size: 20px;
 }
 
 ul {
