@@ -60,7 +60,7 @@ body {
     display:none;
 }
 
-@media (max-width: 220px) {
+@media (max-width: 470px) {
     .burger{
         display:block;
     }
