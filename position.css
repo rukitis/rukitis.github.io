@@ -65,7 +65,7 @@ body {
   position: absolute;
   top: 50%;
   right: 50%;
-  border-style: dashed;
+  border-style: solid;
   border-color: black;
 }
 
@@ -128,6 +128,8 @@ footer {
   margin-left: 50px;
   transition: transform 0.5s;
   margin: 50px;
+  border-style: solid;
+  border-color: black;
 }
 .square-2 {
   width: 100px;
@@ -136,6 +138,8 @@ footer {
   margin-left: 50px;
   transition: transform 0.5s;
   margin: 50px;
+  border-style: solid;
+  border-color: black;
 }
 .square-3 {
   width: 100px;
@@ -144,6 +148,8 @@ footer {
   margin-left: 50px;
   transition: transform 0.5s;
   margin: 50px;
+  border-style: solid;
+  border-color: black;
 }
 .square-4 {
   width: 100px;
@@ -152,6 +158,8 @@ footer {
   margin-left: 50px;
   transition: transform 0.5s;
   margin: 50px;
+  border-style: solid;
+  border-color: black;
 }
 .square-1:hover {
   transform: scale(1.5);
