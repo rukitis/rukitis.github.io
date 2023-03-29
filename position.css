@@ -44,12 +44,15 @@ main {
 
 body {
   background: #cdcdcd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .cube {
   width: 300px;
   height: 300px;
-  background-color: lightslategray;
+  background-color: #655DBB;
   position: relative;
   border-style: solid;
   border-color: black;
@@ -58,7 +61,7 @@ body {
 .inner-cube {
   width: 100px;
   height: 100px;
-  background-color: #37eeb1;
+  background-color: #BFACE2;
   position: absolute;
   top: 50%;
   right: 50%;
@@ -91,6 +94,7 @@ body {
   }
   li {
     padding-bottom: 20px;
+    opacity: 1;
   }
   .check {
     display: block;
@@ -108,10 +112,64 @@ body {
 }
 
 footer {
-  background-color: lightslategray;
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 1000vw;
-  z-index: 4;
+  width: 100%;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+
+
+.square-1{
+    width: 100px;
+    height: 100px;
+    background-color: #245953;
+    margin-left: 50px;
+    transition: transform 0.5s;
+    margin: 50px;
+}
+.square-2{
+    width: 100px;
+    height: 100px;
+    background-color: #408E91;
+    margin-left: 50px;
+    transition: transform 0.5s;
+    margin: 50px;
+}
+.square-3{
+    width: 100px;
+    height: 100px;
+    background-color: #E49393;
+    margin-left: 50px;
+    transition: transform 0.5s;
+    margin: 50px;
+}
+.square-4{
+    width: 100px;
+    height: 100px;
+    background-color: #D8D8D8;
+    margin-left: 50px;
+    transition: transform 0.5s;
+    margin: 50px;
+}
+.square-1:hover {
+  transform: scale(1.5);
+}
+
+.square-2:hover {
+  transform: rotate(45deg);
+}
+
+.square-3:hover {
+  transform: translateX(100px) translateY(-50px);
+}
+
+.square-4 {
+  transform-origin: bottom right;
+}
+
+.square-4:hover {
+  transform: rotate(90deg);
 }
