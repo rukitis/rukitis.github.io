@@ -1,0 +1,23 @@
+
+
+body {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background:#CDCDCD;
+    width:  100vw;
+    height: 100vh;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    list-style:none;
+    transition: transform 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-4.5px);
+    color: white;
+}

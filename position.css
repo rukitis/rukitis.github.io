@@ -6,13 +6,21 @@ header {
     width: 1000vw;
     z-index: 4;
 }
+h1 {
+    display: flex;
+}
 
+p{
+    display: flex;
+    max-width: 500px;
+}
 
 ul {
     display: flex;
    /* justify-content:space-around; */
    gap: 25px; 
    flex-direction: row;
+   /*align-items: center;*/
 }
 a:hover{
     color:white;
@@ -27,6 +35,7 @@ li:hover{
 a {
     text-decoration: none;
     color: black;
+    font-size: 20px;
 }
 main {
     margin-top: 80px;
@@ -47,7 +56,7 @@ body {
 .inner-cube{
     width: 100px;
     height: 100px;
-    background-color: #CDCDCD;
+    background-color: #37eeb1;
     position: absolute;
     top: 50%;
     right: 50%;
