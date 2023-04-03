@@ -3,7 +3,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 1000vw;
+  width: 100vw;
   z-index: 4;
 }
 h1 {
@@ -31,7 +31,7 @@ li {
   transition: transform 0.3s;
 }
 li:hover {
-  transform: translateY(-1.5px);
+  transform: translateY(-2px);
 }
 a {
   text-decoration: none;
@@ -75,9 +75,15 @@ body {
 .check {
   display: none;
 }
+.kontakt {
+  display: none;
+}
 
 @media (max-width: 470px) {
   .burger {
+    display: block;
+  }
+  .kontakt{
     display: block;
   }
   ul {
@@ -109,7 +115,7 @@ body {
   .check:checked + ul {
     display: flex;
   }
-}
+
 
 footer {
   position: fixed;
@@ -120,7 +126,7 @@ footer {
   opacity: 1;
   max-width: 100%;
 }
-
+}
 .square-1 {
   width: 100px;
   height: 100px;
