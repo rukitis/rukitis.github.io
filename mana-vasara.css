@@ -1,0 +1,17 @@
+body {
+  background: #cdcdcd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 4;
+}
+
+p {
+  color: White;
+  text-decoration: none;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 60px;
+}
